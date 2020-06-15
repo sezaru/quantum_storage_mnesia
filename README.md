@@ -12,7 +12,7 @@ The package can be installed by adding `quantum_storage_mnesia` to your list of 
 ```elixir
 def deps do
   [
-    {:quantum_storage_mnesia, "~> 0.1.0"}
+    {:quantum_storage_mnesia, "~> 1.0"}
   ]
 end
 ```

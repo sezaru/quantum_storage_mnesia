@@ -4,7 +4,7 @@ defmodule QuantumStorageMnesia.MixProject do
   @app :quantum_storage_mnesia
   @name "Quantum Storage Mnesia"
   @description "Quantum Storage Adapter based on Mnesia"
-  @version "0.1.0"
+  @version "1.0.0"
   @github "https://github.com/sezaru/#{@app}"
   @author "Eduardo Barreto Alexandre"
   @license "MIT"
