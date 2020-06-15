@@ -1,4 +1,6 @@
 defmodule QuantumStorageMnesia.Mnesia.Job do
+  @moduledoc false
+
   alias Memento.Query
 
   @spec add_or_update(module, Quantum.Job.t()) :: Quantum.Job.t()

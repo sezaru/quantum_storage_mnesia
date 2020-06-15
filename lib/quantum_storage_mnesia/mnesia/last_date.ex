@@ -1,4 +1,6 @@
 defmodule QuantumStorageMnesia.Mnesia.LastDate do
+  @moduledoc false
+
   alias Memento.Query
 
   @spec add_or_update(module, NaiveDateTime.t()) :: NaiveDateTime.t()

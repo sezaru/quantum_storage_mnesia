@@ -1,4 +1,6 @@
 defmodule QuantumStorageMnesia.Mnesia.Table do
+  @moduledoc false
+
   alias Memento.Table
 
   @spec create!(module, [node]) :: :ok

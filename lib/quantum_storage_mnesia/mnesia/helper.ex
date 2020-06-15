@@ -1,4 +1,6 @@
 defmodule QuantumStorageMnesia.Mnesia.Helper do
+  @moduledoc false
+
   @spec transaction((() -> any), any) :: any
   def transaction(fun_fn, error_default \\ nil) do
     case Memento.transaction(fun_fn) do

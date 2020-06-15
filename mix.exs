@@ -17,6 +17,7 @@ defmodule QuantumStorageMnesia.MixProject do
       name: @name,
       description: @description,
       deps: deps(),
+      docs: docs(),
       package: package(),
       elixirc_paths: elixirc_paths(Mix.env()),
       test_coverage: [tool: ExCoveralls],
@@ -35,6 +36,17 @@ defmodule QuantumStorageMnesia.MixProject do
       {:excoveralls, "~> 0.13", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
+    ]
+  end
+
+  defp docs do
+    [
+      main: "readme",
+      source_ref: "v#{@version}",
+      source_url: @github,
+      extras: [
+        "README.md"
+      ]
     ]
   end
 

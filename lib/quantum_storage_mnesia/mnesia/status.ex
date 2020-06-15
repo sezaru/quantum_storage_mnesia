@@ -1,4 +1,6 @@
 defmodule QuantumStorageMnesia.Mnesia.Status do
+  @moduledoc false
+
   alias Memento.Query
 
   @spec initialized?(module) :: boolean

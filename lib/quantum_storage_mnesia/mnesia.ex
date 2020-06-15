@@ -1,4 +1,6 @@
 defmodule QuantumStorageMnesia.Mnesia do
+  @moduledoc false
+
   defmacro create_module(name) do
     quote do
       defmodule unquote(name) do
