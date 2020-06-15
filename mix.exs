@@ -35,7 +35,8 @@ defmodule QuantumStorageMnesia.MixProject do
       {:ex_doc, "~> 0.22.1", only: [:dev, :docs], runtime: false},
       {:excoveralls, "~> 0.13", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
-      {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.4", only: [:dev, :test], runtime: false},
+      {:assertions, "~> 0.10", only: :test}
     ]
   end
 
